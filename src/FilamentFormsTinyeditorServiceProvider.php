@@ -42,7 +42,7 @@ class FilamentFormsTinyeditorServiceProvider extends PackageServiceProvider
     protected function getScripts(): array
     {
         return [
-            'filament-forms-tinyeditor-app' => asset('vendor/mohamedsabil83/filament-forms-tinyeditor/resources/dist/js/app.js'),
+            'filament-forms-tinyeditor-app' => __DIR__ . '/../resources/dist/js/app.js',
         ];
     }
 }
